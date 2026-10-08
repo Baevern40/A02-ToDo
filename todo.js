@@ -15,6 +15,7 @@ addBtn.addEventListener("click", function () {
   if (text.length < 1) {
     errorMsg.innerHTML = "Input must not be empty";
     errorMsg.classList.add("animated")
+
     setTimeout(function () {
       errorMsg.classList.remove("animated")
     }, 1000)
